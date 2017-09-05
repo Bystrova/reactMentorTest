@@ -1,0 +1,41 @@
+.movie-item {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.movie-item > div {
+    flex-basis: 33%;
+    margin: 30px 0;
+}
+.movie-item div img {
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+.img-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.img-label {
+    margin: 0 auto;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    color: #3c3c3c;
+}
+.movie-name {
+    text-transform: uppercase;
+    flex-basis: 70%;
+    font-weight: 600;
+}
+.movie-year {
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.movie-genre {
+    color: #414141;
+    font-size: 14px;
+}
