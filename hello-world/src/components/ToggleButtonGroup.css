@@ -2,6 +2,7 @@
     flex-basis: 90%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .btn {
     text-transform: uppercase;
@@ -11,13 +12,20 @@
 }
 .btn:hover {
     cursor: pointer;
-    box-shadow:0 0 0 128px rgba(0, 0, 0, 0.45) inset;
 }
 .primary {
     background-color: #f55263;
+    border-radius: 2px;
+}
+.primary:hover {
+    box-shadow:0 0 0 128px rgba(0, 0, 0, 0.45) inset;
 }
 .secondary {
     background-color: #414141;
+    border-radius: 2px;
+}
+.secondary:hover {
+    background-color: #f55263;
 }
 .flat {
     background: none;
@@ -36,6 +44,7 @@
 .btn-sm {
     padding: 0 15px;
     height: 26px;
+    margin-left: 5px;
 }
 .search-button-wrapper {
     display: flex;

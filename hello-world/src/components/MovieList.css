@@ -3,6 +3,5 @@
     flex: 1 0 auto;
     box-sizing: border-box;
     margin: auto;
-    justify-content: flex-start;
     flex-wrap: wrap;
 }
