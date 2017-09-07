@@ -16,6 +16,10 @@
     height: 40px;
     background-color: #f5f5f5;
 }
+.producer-name {
+    padding-left: 80px;
+    color: #414141;
+}
 .detail {
     display: flex;
     justify-content: space-between;

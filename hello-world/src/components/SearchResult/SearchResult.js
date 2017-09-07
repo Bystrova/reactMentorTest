@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './SearchResult.css';
-import ResultSorting from './ResultSorting';
-import MovieList from './MovieList';
+import ResultSorting from '../ResultSorting/ResultSorting';
+import MovieList from '../MovieList/MovieList';
 
 export default class SearchResult extends Component {
     render() {

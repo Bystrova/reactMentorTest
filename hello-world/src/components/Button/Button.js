@@ -3,8 +3,9 @@ import './Button.css';
 
 export default class Button extends Component {
     render() {
+        const { type, size, className, title } = this.props;
         return (
-            <button className={`${this.props.type} ${this.props.size} ${this.props.className}`}>{this.props.title}</button>
+            <button className={`${type} ${size} ${className}`}>{title}</button>
         );
     }
 }

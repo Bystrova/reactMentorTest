@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Header from '../components/Header';
-import SearchPanel from '../components/SearchPanel';
-import SearchResult from '../components/SearchResult';
-import Footer from '../components/Footer';
+import Header from '../components/Header/Header';
+import SearchPanel from '../components/SearchPanel/SearchPanel';
+import SearchResult from '../components/SearchResult/SearchResult';
+import Footer from '../components/Footer/Footer';
 import './App.css';
 
 export class App extends Component {

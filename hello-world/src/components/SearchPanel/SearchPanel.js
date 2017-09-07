@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import ToggleButtonGroup from './ToggleButtonGroup';
+import ToggleButtonGroup from '../ToggleButtonGroup/ToggleButtonGroup';
 import './SearchPanel.css';
-import arrow from '../images/enter-arrow.png'
+import arrow from '../../images/enter-arrow.png'
 
 export default class  SearchPanel extends Component {
     render() {
