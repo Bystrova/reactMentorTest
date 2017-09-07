@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Button from './Button';
 import './ToggleButtonGroup.css';
 
-export default class ToggleButtonGroup extends React.Component {
+export default class ToggleButtonGroup extends Component {
     render() {
         return (
             <div className="toggle-button-group">

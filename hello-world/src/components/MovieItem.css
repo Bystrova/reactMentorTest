@@ -34,8 +34,9 @@
     font-weight: 600;
 }
 .movie-year {
-    border: 1px solid black;
+    border: 1px solid #3c3c3c;
     border-radius: 2px;
+    padding: 2px;
 }
 .movie-genre {
     color: #414141;

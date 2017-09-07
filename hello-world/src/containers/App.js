@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Header from './Header';
-import SearchPanel from './SearchPanel';
-import SearchResult from './SearchResult';
-import Footer from './Footer';
+import Header from '../components/Header';
+import SearchPanel from '../components/SearchPanel';
+import SearchResult from '../components/SearchResult';
+import Footer from '../components/Footer';
 import './App.css';
 
-export class App extends React.Component {
+export class App extends Component {
     render() {
         return (
             <div className="main-container">

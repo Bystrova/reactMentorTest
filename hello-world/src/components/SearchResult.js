@@ -3,7 +3,7 @@ import './SearchResult.css';
 import ResultSorting from './ResultSorting';
 import MovieList from './MovieList';
 
-export default class SearchResult extends React.Component {
+export default class SearchResult extends Component {
     render() {
         return (
             <div className="search-result">

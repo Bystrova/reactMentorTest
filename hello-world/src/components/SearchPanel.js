@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import ToggleButtonGroup from './ToggleButtonGroup';
 import './SearchPanel.css';
+import arrow from '../images/enter-arrow.png'
 
-export default class  SearchPanel extends React.Component {
+export default class  SearchPanel extends Component {
     render() {
         return (
             <div className="search-panel">
@@ -10,7 +11,7 @@ export default class  SearchPanel extends React.Component {
                 <div className="search search-field">
                     <input type="text" maxLength="100"/>
                     <div>
-                        <img src="../images/enter-arrow.png"/>
+                        <img src={arrow} alt=""/>
                     </div>
                 </div>
                 <div className="search search-settings">

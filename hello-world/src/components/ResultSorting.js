@@ -3,7 +3,7 @@ import Button from './Button';
 import './ResultSorting.css';
 
 
-export default class ResultSorting extends React.Component {
+export default class ResultSorting extends Component {
     render() {
         return (
             <div className="result-sorting">

@@ -11,12 +11,12 @@ import range from '../images/range.jpg';
 import trespass from '../images/trespass.jpg';
 import moonstruck from '../images/moonstruck.jpg';
 
-export default class MovieItem extends React.Component {
+export default class MovieItem extends Component {
     render() {
         return (
             <div className="movie-item">
                 <div className="img-wrapper">
-                    <img src={killbill}/>
+                    <img src={killbill} alt="" />
                     <div className="img-label">
                         <div className="movie-name">kill bill: vol 2</div>
                         <div className="movie-year">2004</div>
@@ -24,7 +24,7 @@ export default class MovieItem extends React.Component {
                     </div>
                 </div>
                 <div className="img-wrapper">
-                    <img src={killbill1}/>
+                    <img src={killbill1} alt="" />
                     <div className="img-label">
                         <div className="movie-name">kill bill: vol 1</div>
                         <div className="movie-year">2003</div>
@@ -32,7 +32,7 @@ export default class MovieItem extends React.Component {
                     </div>
                 </div>
                 <div className="img-wrapper">
-                    <img src={pulpfiction}/>
+                    <img src={pulpfiction} alt="" />
                     <div className="img-label">
                         <div className="movie-name">pupol fiction</div>
                         <div className="movie-year">1993</div>
@@ -40,7 +40,7 @@ export default class MovieItem extends React.Component {
                     </div>
                 </div>
                 <div className="img-wrapper">
-                    <img src={jackiebrown}/>
+                    <img src={jackiebrown} alt="" />
                     <div className="img-label">
                         <div className="movie-name">jackie brown</div>
                         <div className="movie-year">1997</div>
@@ -48,7 +48,7 @@ export default class MovieItem extends React.Component {
                     </div>
                 </div>
                 <div className="img-wrapper">
-                    <img src={resorvoirdogs}/>
+                    <img src={resorvoirdogs} alt="" />
                     <div className="img-label">
                         <div className="movie-name">reservoir dogs</div>
                         <div className="movie-year">1992</div>
@@ -56,7 +56,7 @@ export default class MovieItem extends React.Component {
                     </div>
                 </div>
                 <div className="img-wrapper">
-                    <img src={fourrooms}/>
+                    <img src={fourrooms} alt="" />
                     <div className="img-label">
                         <div className="movie-name">four rooms</div>
                         <div className="movie-year">1995</div>
@@ -64,7 +64,7 @@ export default class MovieItem extends React.Component {
                     </div>
                 </div>
                 <div className="img-wrapper">
-                    <img src={stolen}/>
+                    <img src={stolen} alt="" />
                     <div className="img-label">
                         <div className="movie-name">stolen</div>
                         <div className="movie-year">1997</div>
@@ -72,7 +72,7 @@ export default class MovieItem extends React.Component {
                     </div>
                 </div>
                 <div className="img-wrapper">
-                    <img src={range}/>
+                    <img src={range} alt="" />
                     <div className="img-label">
                         <div className="movie-name">range</div>
                         <div className="movie-year">1997</div>
@@ -80,7 +80,7 @@ export default class MovieItem extends React.Component {
                     </div>
                 </div>
                 <div className="img-wrapper">
-                    <img src={trespass}/>
+                    <img src={trespass} alt="" />
                     <div className="img-label">
                         <div className="movie-name">trespass</div>
                         <div className="movie-year">1997</div>
@@ -88,7 +88,7 @@ export default class MovieItem extends React.Component {
                     </div>
                 </div>
                 <div className="img-wrapper">
-                    <img src={moonstruck}/>
+                    <img src={moonstruck} alt="" />
                     <div className="img-label">
                         <div className="movie-name">moonstruck</div>
                         <div className="movie-year">1987</div>
