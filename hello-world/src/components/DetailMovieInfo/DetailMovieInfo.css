@@ -1,0 +1,41 @@
+.search-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+}
+.found-movie {
+    display: flex;
+    justify-content: flex-start;
+    margin: auto 0;
+}
+.found-movie-poster {
+    flex-basis: 33%;
+    margin: 0;
+}
+.found-movie img {
+    display: block;
+    width: 250px;
+    margin: auto;
+}
+.found-movie-description {
+    flex-basis: 60%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 18px;
+}
+.selected-movie-name {
+    color: #f55263;
+    font-size: 32px;
+}
+.selected-movie-year-length {
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+}
+.additional-info {
+    font-size: 14px;
+}
