@@ -1,0 +1,33 @@
+.img-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+   padding-left: 5%;
+}
+.img-wrapper img {
+    width: 250px;
+}
+.img-label {
+    margin: 0 auto;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    color: #3c3c3c;
+}
+.movie-name {
+    text-transform: uppercase;
+    flex-basis: 70%;
+    font-weight: 600;
+}
+.movie-year {
+    border: 1px solid #3c3c3c;
+    border-radius: 2px;
+    padding: 2px;
+}
+.movie-genre {
+    color: #414141;
+    font-size: 14px;
+}
